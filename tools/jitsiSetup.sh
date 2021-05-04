@@ -1,3 +1,6 @@
+cd /react-native-webrtc/tools
+mkdir output
+
 python build-webrtc.py --build --android output
 python build-webrtc.py --setup --android myoutput
 
