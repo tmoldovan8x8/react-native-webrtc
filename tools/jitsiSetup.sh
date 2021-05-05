@@ -1,8 +1,8 @@
 cd /react-native-webrtc/tools
 mkdir output
 
-python build-webrtc.py --setup --android output
-python build-webrtc.py --sync --android output
+sudo python build-webrtc.py --setup --android output
+sudo python build-webrtc.py --sync --android output
 
 cd output/build_webrtc/webrtc/android/src/ 
 git remote add titusOrigin https://github.com/tmoldovan8x8/webrtc.git
